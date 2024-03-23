@@ -1,0 +1,8 @@
+Data Source=DESKTOP-AIO8OIO\SQLEXPRESS;Initial Catalog=AzhaqDB;Integrated Security=True;Trust Server Certificate=True
+Data Source=DESKTOP-AIO8OIO\SQLEXPRESS;Initial Catalog=MuhammadAzhaq;Integrated Security=True;Trust Server Certificate=True ...
+
+Scaffold-DbContext "Server=DESKTOP-AIO8OIO\SQLEXPRESS;Database=MuhammadAzhaq;Trusted_Connection=True;trustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+Data Source=DESKTOP-AIO8OIO\SQLEXPRESS;Initial Catalog=MuhammadAzhaq;Integrated Security=True;Trust Server Certificate=True
+
+Scaffold-DbContext "Server=CRKRL-DESKTOP-AIO8OIO\SQLEXPRESS;Database=MuhammadAzhaq;Trusted_Connection=True;trustServerCertificate=true"; Microsoft.EntityFrameworkCore.SqlServer -o Models
